@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  margin: auto;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.searchColor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0 0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px #00000099;
+  flex-grow: 1px;
+  min-height: 30px;
+  font-size: 0.8rem;
+  padding: 0.25rem;
+  text-align: center;
+  outline: none;
+}
+
+.searchColor label {
+  position: absolute;
+  left: -99999px;
+}
+  
+
+.searchColor:focus,
+.searchColor:hover {
+  outline: none;
+}
+
+.colorBox {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px #00000099;
+}
+
+label {
+  position: absolute;
+  left: 9999999px;
+}
+
+button {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 48px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px #00000099;
+  padding: 0.25rem;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
