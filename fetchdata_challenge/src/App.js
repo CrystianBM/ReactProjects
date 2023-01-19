@@ -2,8 +2,8 @@ import { useState } from 'react';
 import Buttons from './Buttons';
 
 function App() {
-  const [color, setColor] = useState('');
-  const [hex, setHex] = useState('');
+  const [activeUrlButton, setActiveUrlButton] = useState('');
+  const [fetchError, setFetchError] = useState('');
   const [isDarkText, setIsDarkText] = useState('');
   
   return (

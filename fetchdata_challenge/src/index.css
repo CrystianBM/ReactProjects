@@ -77,15 +77,30 @@ button {
   width: 33.33%;
   background-color: rgba(0, 0, 0, 0.5);
   color: aliceblue;
+  position: absolute;
   min-height: 40px;
   font-size: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 0.25rem;
 }
 
-button:hover {
+.button2 {
+  left: 33.33vw;
+}
+
+.button3 {
+  left: 66.66vw;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover {
   background-color: rgba(0, 0, 0, 0.6);
   border: 2px solid rgba(0, 0, 0, 0.5);
-  margin-top: 2px;
   cursor: pointer;
+}
+
+button:focus{
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid rgba(0, 0, 0, 0.5);
 }
