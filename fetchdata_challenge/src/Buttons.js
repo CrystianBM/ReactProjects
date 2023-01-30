@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Buttons = () => {
+const Buttons = ({ setReqType }) => {
   return (
-    <div className='buttonMenu'>
-        <button className='button1'>teste</button>
-        <button className='button2'>teste2</button>
-        <button className='button3'>teste3</button>
-    </div>
+    <form className='buttonMenu' onSubmit={(e) => e.preventDefault()}>
+        <button type='submit' className='button1' onClick={() => {setReqType('users')}}>Users</button>
+        <button type='submit' className='button2' onClick={() => {setReqType('posts')}}>Posts</button>
+        <button type='submit' className='button3' onClick={() => {setReqType('comments')}}>Comments</button>
+    </form>
   )
 }
 

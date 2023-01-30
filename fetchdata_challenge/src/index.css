@@ -35,8 +35,9 @@ main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  align-items: center;
-  justify-content: center;
+  align-items: top;
+  margin-top: 3px;
+  justify-content: justify;
   overflow-y: auto;
 }
 
@@ -101,6 +102,33 @@ button {
 }
 
 button:focus{
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7) !important;
   border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.lineItem{
+  font-size: 17px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.itemList{
+  display: flex;
+  flex-direction: column;
+  justify-content: justify;
+  text-align: left;
+}
+
+
+tr {
+  margin: 0px auto;
+  width: 100%;
+}
+
+td {
+  margin: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  text-align:center;
+  break-inside:avoid;
 }
