@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CellContent = ({ cell }) => {
+const CellContent = ({ value }) => {
   return (
     <td>
-        {JSON.stringify(cell)}
+        {value}
     </td>
   )
 }

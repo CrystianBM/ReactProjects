@@ -1,10 +1,10 @@
 import React from 'react'
-import ItemList from './ItemList'
+import Table from './Table'
 
 const Content = ({ items }) => {
   return (
     <table>
-        <ItemList
+        <Table
             items = {items}
         />
     </table>

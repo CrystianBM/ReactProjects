@@ -132,3 +132,9 @@ td {
   text-align:center;
   break-inside:avoid;
 }
+
+.table-container {
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 52px;
+}
