@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "bbbbb",
+      "datetime": "03/03/0003",
+      "body": "asdfghjklwertyuiop"
+    },
+    {
+      "id": 3,
+      "title": "qqqqq",
+      "datetime": "06/06/0006",
+      "body": "asdfghjklwertyuiop"
+    },
+    {
+      "id": 4,
+      "title": "Test post ",
+      "datetime": "February 09, 2023 1:49:24 PM",
+      "body": "Just trying it out."
+    }
+  ]
+}
