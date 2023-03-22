@@ -1,3 +1,11 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": 1,
+      "title": "New post Test",
+      "datetime": "21/03/2023",
+      "updatetime": "21/03/2023",
+      "body": "Testing app again\n"
+    }
+  ]
 }
