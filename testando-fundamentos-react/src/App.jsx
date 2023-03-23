@@ -11,11 +11,11 @@ export default function App() {
     <div className="App"> 
       <h1> Fundamentos React </h1>
       <div className="cards">
-        <Card titulo="Random Challenge" >
+        <Card titulo="Random Challenge" color="green" >
           <RandomGen min={1} max={60} />
         </Card>
 
-        <Card titulo="First Component" >
+        <Card titulo="First Component">
           <First />
         </Card>
       </div>
